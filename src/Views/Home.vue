@@ -1,4 +1,4 @@
-<template>scopedSlotsSAD SAD SA DSA D SAD SA D S</template>
+<template>scopedSlotsSAD SAD SA DSA</template>
 
 <script>
 export default {

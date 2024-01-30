@@ -11,7 +11,7 @@ import {
 </script>
 
 <template>
-  <div class="flex justify-between w-full boardHead">
+  <div class="w-full boardHead">
     <div class="flex gap-5 cursor-pointer boradHead_left_head">
       <p class="text-white font-bold text-xl">Chi Thanh</p>
       <p class="text-white mt-1">
@@ -28,15 +28,15 @@ import {
     </div>
     <div class="flex gap-5 cursor-pointer boradHead_left_head">
       <p class="text-white font-bold text-xl">Chi Thanh</p>
-      <p class="text-white mt-1">
+      <p class="text-white">
         <BugOutlined />
       </p>
-      <p class="text-white mt-1">
+      <p class="text-white">
         <DingtalkOutlined />
       </p>
       <p class="bg-[#dfe1e6] py-1 px-3 rounded-sm hover:bg-white">Share</p>
 
-      <p class="mt-1 text-white">
+      <p class="text-white">
         <DownOutlined></DownOutlined>
       </p>
       <p></p>

@@ -1,1 +1,12 @@
+.sideBar {
+  .ant-menu-item-group-title {
+    color: white !important;
+    font-weight: bold;
+  }
 
+  .ant-menu-submenu-title {
+    &:hover {
+      color: red;
+    }
+  }
+}

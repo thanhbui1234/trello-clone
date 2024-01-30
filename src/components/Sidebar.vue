@@ -6,7 +6,7 @@
     <GithubOutlined />
   </div>
   <a-menu
-    class="border border-solid border-gray-500"
+    class="border border-solid border-gray-500 sideBar"
     id="dddddd"
     v-model:openKeys="openKeys"
     v-model:selectedKeys="selectedKeys"
@@ -17,6 +17,7 @@
   ></a-menu>
 </template>
 <script lang="ts" setup>
+import "../assets/sidebar.scss";
 import { reactive, ref, watch, VueElement, h } from "vue";
 import {
   GithubOutlined,
@@ -68,14 +69,14 @@ const items: ItemType[] = reactive([
   ]),
 
   getItem(
-    "Dạng xem không gian làm việc",
+    "Workplace views",
     "grp",
     null,
     [getItem("Bảng", "13"), getItem("Lịch", "14")],
     "group"
   ),
   getItem(
-    "Các bảng của bạn",
+    "Your boards",
     "grp",
     null,
     [getItem("Bảng", "13"), getItem("Lịch", "14")],

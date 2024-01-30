@@ -1,23 +1,17 @@
 .container {
-  height: 500px !important;
-  max-height: 500px !important;
   .boardContainer {
+    height: 1000px;
     display: flex;
     .ant-menu-root {
-      max-height: 1000px !important;
-      height: 700px;
+      height: 100%;
       color: white !important;
       background-color: #0c57b9;
     }
     .boardContent {
-      border-left: 1px solid;
-      --tw-border-opacity: 1;
-      border-color: rgb(107 114 128 / var(--tw-border-opacity));
       width: 100%;
       height: 100%;
       .boardHome {
-        max-height: 750px;
-        height: 711px;
+        height: 100%;
         background: rgb(152, 106, 173);
         background: linear-gradient(
           0deg,
