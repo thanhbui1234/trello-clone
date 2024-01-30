@@ -1,6 +1,7 @@
 <script setup>
 import Navbar from "../components/Navbar.vue";
 import Sidebar from "../components/Sidebar.vue";
+import NavHead from "../components/NavHead.vue";
 import "../assets/board.index.scss";
 </script>
 <template>
@@ -11,9 +12,8 @@ import "../assets/board.index.scss";
         <Sidebar></Sidebar>
       </div>
       <div class="boardContent">
-        <div class="boardHead">
-          <div class="text-red-500">TEST</div>
-          <div>cáds</div>
+        <div class="">
+          <NavHead></NavHead>
         </div>
         <div class="boardHome">
           <router-view></router-view>
@@ -26,6 +26,6 @@ import "../assets/board.index.scss";
 <script>
 export default {
   name: "mainLayout",
-  components: { Navbar, Sidebar },
+  components: { Navbar, Sidebar, NavHead },
 };
 </script>

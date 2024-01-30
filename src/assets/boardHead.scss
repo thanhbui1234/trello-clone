@@ -1,0 +1,17 @@
+.boardHead {
+  border: 1px solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1869a2;
+  padding: 16px 12px 10px 12px;
+  .boradHead_left_head {
+    > p {
+      &:hover {
+        background-color: hsl(214.5deg 51.28% 45.88%);
+      }
+    }
+  }
+}
