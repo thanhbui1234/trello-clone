@@ -1,0 +1,48 @@
+.containerNav {
+  background-color: hsl(214.8deg 90.36% 32.55%) !important;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  .ant-menu-overflow {
+    background-color: hsl(214.8deg 90.36% 32.55%) !important;
+    color: white;
+  }
+  .ant-menu-item-active {
+    background-color: gray;
+    color: white !important;
+  }
+  .ant-menu-item-selected {
+    color: white !important;
+  }
+  .ant-menu-submenu-selected {
+    color: white !important;
+  }
+  .ant-menu-item-only-child:hover {
+    background-color: hsl(214.5deg 51.28% 45.88%) !important;
+  }
+  .ant-menu-submenu-title:active {
+    background-color: hsl(214.5deg 51.28% 45.88%) !important;
+  }
+  .ant-menu-submenu-title:hover {
+    color: white !important;
+    background-color: hsl(214.5deg 51.28% 45.88%) !important;
+    border-radius: 0px;
+  }
+  .search {
+    color: white;
+    background-color: hsl(214.5deg 51.28% 45.88%);
+    outline: none;
+  }
+  .search::placeholder {
+    color: white;
+  }
+  .navRight {
+    display: flex !important;
+    gap: 20px;
+    margin-top: 10px;
+    .anticon-bell {
+      margin-top: 5px;
+      color: white;
+    }
+  }
+}
