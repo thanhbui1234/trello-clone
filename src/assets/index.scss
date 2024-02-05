@@ -47,3 +47,14 @@
     }
   }
 }
+
+.ant-modal-root .ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.2); /* Black with 60% opacity */
+}
+
+.ant-modal {
+  width: 800px !important;
+}
+.ant-modal-footer {
+  display: none;
+}

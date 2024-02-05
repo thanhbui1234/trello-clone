@@ -1,0 +1,16 @@
+.dragbag {
+  display: flex;
+  gap: 10px;
+  padding: 15px 0 0 20px;
+  .dragbagChild {
+    max-height: 340px;
+  }
+}
+.ant-popover {
+  left: 540px !important;
+  top: 132px !important;
+  width: 250px;
+}
+.ant-popover-arrow {
+  display: none !important;
+}

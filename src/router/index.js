@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Mainlayout from "../layout/Mainlayout.vue";
-import Home from "../Views/Home.vue";
+import Add from "../Views/Add.vue";
+import Dragbag from "../Views/Dragbag.vue";
 
 const routes = [
   {
@@ -11,7 +12,12 @@ const routes = [
       {
         path: "/",
         name: "Home",
-        component: Home,
+        component: Dragbag,
+      },
+      {
+        path: "dragbag",
+        name: "dragbag",
+        component: Add,
       },
     ],
   },

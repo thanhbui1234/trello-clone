@@ -3,10 +3,19 @@
     color: white !important;
     font-weight: bold;
   }
-
+  .ant-menu-item-selected {
+    color: black;
+    background-color: #f3eeea;
+  }
   .ant-menu-submenu-title {
     &:hover {
       color: red;
+    }
+  }
+
+  .ant-menu-submenu-selected {
+    > .ant-menu-submenu-title {
+      color: #f3eeea;
     }
   }
 }
