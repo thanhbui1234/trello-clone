@@ -61,6 +61,7 @@
           class="cursor-move h-30 rounded p-3"
         >
           <div
+            @click="showModal"
             class="bg-white px-4 py-2 rounded-lg text-gray-600 hover:border-blue-600 border"
           >
             {{ item.name }}
@@ -113,6 +114,38 @@ const list1 = ref([
   {
     name: "Juan",
     id: "4",
+  },
+  {
+    name: "Juan",
+    id: "5",
+  },
+  {
+    name: "Juan",
+    id: "6",
+  },
+  {
+    name: "Juan",
+    id: "7",
+  },
+  {
+    name: "Juan",
+    id: "8",
+  },
+  {
+    name: "Juan",
+    id: "9",
+  },
+  {
+    name: "Juan",
+    id: "10",
+  },
+  {
+    name: "Juan",
+    id: "11",
+  },
+  {
+    name: "Juan",
+    id: "12",
   },
 ]);
 const list2 = ref(

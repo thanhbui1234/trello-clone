@@ -4,6 +4,10 @@
   padding: 15px 0 0 20px;
   .dragbagChild {
     max-height: 340px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 }
 .ant-popover {
